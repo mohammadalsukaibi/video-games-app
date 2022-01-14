@@ -23,7 +23,7 @@
       <h3 class=" text-center pt-3">Video games</h3>
     </div>
     <div class="container my-4">
-      <div class="d-flex">
+      <div class="d-flex justify-content-center">
           <a href="/catalog/genre/create" class="btn btn-dark">Create a genre</a>
           <a href="/catalog/game/create" class="btn btn-dark ms-2">Create a game</a>
       </div>
@@ -31,9 +31,9 @@
     
     <!-- -->
     <div class="container">
-      <div class="row row-cols-4 justify-content-center">
+      <div class="row justify-content-center">
         <% genres.forEach(function(genre){ %>
-          <div class="col">
+          <div class="col-12 col-md-3 mt-3 d-flex justify-content-center">
             <a href=<%= genre.url %>>
               <div class="card" style="width: 18rem;">
                 <img src="<%= genre.image %>" class="card-img-top" alt="Image not found">

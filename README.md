@@ -2,7 +2,7 @@
 
 ## project overview
 
-A website that has full curd functionality using express and mongoDB. You can create genres and games and edit or delete them.
+A website that has full curd functionality using express and mongoDB. You can create genres and games and edit or delete them. 
 
 ## Technologies used
 
@@ -11,6 +11,7 @@ A website that has full curd functionality using express and mongoDB. You can cr
 - Express JS
 - MongoDB
 - Mongoose
+- EJS
 
 ## Main features
 

@@ -1,0 +1,29 @@
+{
+  "name": "video-games-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadalsukaibi/video-games-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadalsukaibi/video-games-app/issues"
+  },
+  "homepage": "https://github.com/mohammadalsukaibi/video-games-app#readme",
+  "dependencies": {
+    "async": "^3.2.3",
+    "bootstrap-icons": "^1.7.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,6 +1,7 @@
 var express = require('express');
 const path = require('path');
 var mongoose = require('mongoose');
+let dotenv = require('dotenv').config()
 
 
 // routers
@@ -10,8 +11,7 @@ const catalogRouter = require('./routes/catalog');
 var app = express();
 
 //Set up mongoose connection
-const mongoDB = 'mongodb+srv://mohammad:1q2w3e4r5t@cluster0.9g8rd.mongodb.net/Cluster1?retryWrites=true&w=majority';
-mongoose.connect(mongoDB, { useNewUrlParser: true , useUnifiedTopology: true});
+mongoose.connect(process.env.mongoDB, { useNewUrlParser: true , useUnifiedTopology: true});
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 

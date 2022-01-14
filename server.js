@@ -3,6 +3,8 @@ const path = require('path');
 var mongoose = require('mongoose');
 let dotenv = require('dotenv').config()
 
+console.log(process.env.MONGODB_URI);
+
 
 // routers
 const indexRouter = require('./routes/index');

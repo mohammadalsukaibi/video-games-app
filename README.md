@@ -4,6 +4,9 @@
 
 A website that has full curd functionality using express and mongoDB. You can create genres and games and edit or delete them. 
 
+#### Check out the project here
+https://mohammadalsukaibi-video-game.herokuapp.com
+
 ## Technologies used
 
 - HTML
